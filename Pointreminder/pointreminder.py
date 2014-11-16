@@ -23,11 +23,11 @@ TRIGGERREQUIRED = False
 #Anti-triggers will ALWAYS deny the post.
 ANTITRIGGERS = ["✓", "thanks but", "thanks, but"]
 #These force the bot not to make the comment.
-REPLYSTRING = "Dont forget to give a ✓"
+REPLYSTRING = "Dont forget to give a\n\n> ✓\n\n(see sidebar)!"
 #This is the word you want to put in reply
 MAXPOSTS = 100
 #This is how many posts you want to retrieve all at once. PRAW can download 100 at a time.
-WAIT = 20
+WAIT = 50
 #This is how many seconds you will wait between cycles. The bot is completely inactive during this time.
 
 
